@@ -16,4 +16,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
  7. Combine the *Y*, *Subject* and *select_X* by column to get a new cleaned 10299x68 data frame, *cleaned_data*. Properly name the first two columns, "Activity" and "SubjectID".
  8. Write the *cleaned_data* out to "cleaned_data.txt" file in current working directory.  
  9. Finally, generate a second independent tidy data set with the average of each measurement for each activity and each subject. We have 30 unique subjects and 6 unique activities, which result in a 180 combinations of the two. Then, for each combination, we calculate the mean of each measurement with the corresponding combination. So, after initializing the *cleaned_data* data frame and performing the two for-loops, we get a 180x68 data frame.
- 12. Write the *tidy* out to "tidy_data.txt" file in current working directory. 
+ 10. Write the *tidy* out to "tidy_data.txt" file in current working directory. 
